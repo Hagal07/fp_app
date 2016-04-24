@@ -2,44 +2,19 @@
 <html>
     <head>
         <title>Laravel</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
+        <link href="css/login.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Fuji Print System 8</div>
-            </div>
-        </div>
+      <!-- header -->
+      <hgroup class="heading">
+      </hgroup>
+
+      <!-- form starts here -->
+      <form class="sign-up">
+        <h1 class="sign-up-title">Fuji Print System</h1>
+        <input type="text" class="sign-up-input" placeholder="What's your username?" autofocus>
+        <input type="password" class="sign-up-input" placeholder="Choose a password">
+        <input type="submit" value="Log in !" class="sign-up-button">
+      </form>
     </body>
 </html>
